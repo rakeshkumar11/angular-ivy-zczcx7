@@ -10,9 +10,15 @@ export class AppComponent  {
   
  title = 'Angular 7 Project!'; 
 
-  fun1(data) 
-  {
-      alert("Email id : " + data.emailid + "  password:" + data.passwd); 
+ emailid;
+ passwd;
+ 
+ fun1(data) 
+ {
+    this.emailid = data.emailid;
+    this. passwd = data.passwd;
 
-   }
+    alert("Email id : " + data.emailid + "  password:" + data.passwd); 
+
+  }
 }
