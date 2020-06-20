@@ -1,17 +1,15 @@
-p {
-  font-family: Lato;
-}
-button {
-   background-color: #2B3BCF;
-   color: white;
-   padding: 10px 10px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 20px;
-}
+
 form{
   background-color: lightgray;
   display: inline-block;
   padding: 10px;
+  float: right;
+}
+input, button{
+  border: none;
+}
+button {
+  background-color: green;
+  color: white;
+  text-align: center;
 }
