@@ -1,2 +1,20 @@
 
-<h1>Angular 7 Routing Demo</h1> 
+<h1>Angular 7 Form Demo</h1> 
+
+<form #fid = "ngForm" (ngSubmit) = "fun1(fid.value)"> 
+
+   <input type = "text" name = "emailid" placeholder = "emailid" ngModel> <br/> 
+
+   <input type = "password" name = "passwd" placeholder = "passwd" ngModel> <br/> 
+
+   <input type = "submit" value = "submit"> 
+</form>
+
+<form #fid = "ngForm" (ngSubmit) = "fun1(fid.value)"> 
+
+   <input type = "text" name = "emailid" placeholder = "emailid" ngModel> <br/> 
+
+   <input type = "password" name = "passwd" placeholder = "passwd" ngModel> <br/> 
+   
+   <input type = "submit" value = "submit"> 
+</form>

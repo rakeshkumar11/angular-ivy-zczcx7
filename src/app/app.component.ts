@@ -10,10 +10,9 @@ export class AppComponent  {
   
  title = 'Angular 7 Project!'; 
 
-  todaydate = new Date(); 
+  fun1(data) 
+  {
+      alert("Email id : " + data.emailid + "  password:" + data.passwd); 
 
-  jsonval = {name:'Rox', age:'25', address:{a1:'Mumbai', a2:'Karnataka'}}; 
-  
-  months = ["Jan", "Feb", "Mar", "April", "May", "Jun", "July", "Aug", 
-      "Sept", "Oct", "Nov", "Dec"]; 
+   }
 }
