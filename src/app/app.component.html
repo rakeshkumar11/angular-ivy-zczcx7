@@ -3,10 +3,14 @@
 
 <form #fid = "ngForm" (ngSubmit) = "fun1(fid.value)"> 
 
-   <input type = "text" name = "emailid" placeholder = "emailid" ngModel> <br/> 
+  <div>
+    <b>Login Form</b>
+  </div>
 
-   <input type = "password" name = "passwd" placeholder = "passwd" ngModel> <br/> 
+  <input type = "text" name = "emailid" placeholder = "emailid" ngModel> <br/> 
 
-   <button>submit</button> 
+  <input type = "password" name = "passwd" placeholder = "passwd" ngModel> <br/> 
+
+  <button>submit</button> 
 </form>
 
